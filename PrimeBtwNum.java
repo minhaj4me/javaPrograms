@@ -1,10 +1,12 @@
 import java.util.*;
 
-public class PrimeBtwNum {
+public class PrimeBtwNum  {
     public static void main(String[] args) {
         // write your code here
         Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the Starting Value");
         int low = sc.nextInt();
+        System.out.println("Enter the Starting Value");
         int high = sc.nextInt();
         for (int i = low; i <= high; i++) {
             int x = 1;
@@ -15,11 +17,10 @@ public class PrimeBtwNum {
                 }
             }
             if (x <= 1) {
-                System.out.print(i+" ");
+                System.out.print(i + " ");
             }
             // else
             // continue;
         }
-
     }
 }
