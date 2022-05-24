@@ -9,7 +9,7 @@ public class ArrayReverse {
             System.out.print(arr[j2] + " ");
         }
 
-        while (i <= j) {
+        while (i < j) {
             int temp = arr[i];
             arr[i] = arr[j];
             arr[j] = temp;
