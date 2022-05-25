@@ -9,7 +9,7 @@ public class SelectionSort {
 
     static void SelectionSorting(int[] arr) {
         for (int i = 0; i < arr.length; i++) {
-            int min_index = i;
+            int min_index = i; //minimum index
 
             for (int j = i + 1; j < arr.length; j++) {
                 if (arr[min_index] > arr[j]) {
