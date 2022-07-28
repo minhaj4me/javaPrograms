@@ -4,6 +4,9 @@ class MultipleDataTypeStoreInArray {
         System.out.println(
                 "An Array is an Object consisting of a numbered list of variables. Each is a primitive type or reference\n\n");
 
+        System.out.println("Multi_DimensionalArray Definition :- ");
+        System.out.println("Two Dimensional Array is an array of references to arrays\n\n");
+
         System.out.println("if we want to store different type of data type in a single unit in an array");
         System.out.println("then we have to create an array of object ");
         System.out.println("then we can store any kind of object we want in the references in the array");
