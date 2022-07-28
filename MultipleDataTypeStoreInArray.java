@@ -6,6 +6,7 @@ class MultipleDataTypeStoreInArray {
 
         System.out.println("Multi_DimensionalArray Definition :- ");
         System.out.println("Two Dimensional Array is an array of references to arrays\n\n");
+        System.out.println("Two Dimensional Array Example PASCAL TRIANGLE\n\n");
 
         System.out.println("if we want to store different type of data type in a single unit in an array");
         System.out.println("then we have to create an array of object ");
