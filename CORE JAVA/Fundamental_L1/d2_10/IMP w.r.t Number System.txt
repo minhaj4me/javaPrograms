@@ -1,0 +1,24 @@
+* Always remember, the remainder of any number is less than the number means the remainder of 9 is in between {0-8}........ 
+
+* for example- 
+
+-> 2 it's remainder is {0,1} -[binary] and is represented as {0b0,0b1}
+-> 8 it's remainder is {0,1,2,3,4,5,6,7} -[octal] and is represented as {01,02,03,04,05,06,07}
+-> 16 it's remainder is {0,1,2,3,4,5,6,7,8,9,a,b,c,d,e,f} -[hexadecimal] {0x0,0x1,0x2,0x3,0x4,0x5,0x6,0x7,0x8,0x9,0xa,0xb,0xc,0xd,0xe,0xf}
+
+
+* NOTE- the main point is if we go beyond the remainder then it will give us ERROR...
+
+* like---- 
+ 
+-> for [binary] we cannot write like this {0b2 or more...} [Error: Invalid binary literal number (only '0' and '1' are expected)]
+-> same for [octal] ...cannot   {08 or more...} [Error: The literal 08 of type int is out of range] 
+-> same for [hexadecimal]     {0xg or more}  [Error: Invalid hex literal number]
+-> also for hexadeximal we cannot write {0x10 or more it is different, compiler will take is 1 and 0 and gives o/p as 16(1*16 to the power 1 + 0*16 to the power 0)
+ and later increase by 1 for further 0x11 or 0x12,0x13,0x14,0x15,or more......}
+
+
+
+
+
+								need to change
