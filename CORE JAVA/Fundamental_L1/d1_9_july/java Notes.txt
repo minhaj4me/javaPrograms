@@ -1,0 +1,2 @@
+* it is a quick command to test the output of java.
+--> java filename.java
