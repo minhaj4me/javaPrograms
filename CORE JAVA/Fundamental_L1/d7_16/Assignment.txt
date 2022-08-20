@@ -1,0 +1,4 @@
+Scanner Assignment:
+WAP to find the square of a given number.
+WAP to find cube of a given number.
+WAP to find Simple Interest of a given Principle, Rate of Interest  and Time.
