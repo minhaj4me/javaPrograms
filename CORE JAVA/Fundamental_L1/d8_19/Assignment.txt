@@ -1,0 +1,6 @@
+Decision Making Assignment:
+WAP to find a given number is even or odd.
+WAP to find a given number is divisible by 5 and 3 both.
+WAP to find the greatest number among the two numbers.
+WAP to find the greatest number among the five numbers.
+WAP to find day in the week.
