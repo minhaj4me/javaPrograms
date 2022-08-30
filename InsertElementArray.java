@@ -15,17 +15,16 @@ public class InsertElementArray {
         int index = sc.nextInt();
         System.out.println("Enter the value which you want to insert at " + index + " postion");
         int element = sc.nextInt();
-        // if (index <= n) {
-        for (int i = n; i < index; i--) {
+        for (int i = n; i > index; i--) {
             arr[i] = arr[i - 1];
         }
         arr[index] = element;
+        // for (int i : arr) {
+        // System.out.println(i);
         // }
-        // else {
-        // arr[index] = element;
-        // }
-        for (int i : arr) {
-            System.out.println(i);
+
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i] + " ");
         }
     }
 }
