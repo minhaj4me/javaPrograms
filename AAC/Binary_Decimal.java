@@ -4,7 +4,7 @@
 public class Binary_Decimal {
 
     public static void main(String[] args) {
-        int n = 10100;
+        int n = 1001;
         int dec = bToD(n);
         System.err.println(dec);
     }
